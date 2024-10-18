@@ -56,7 +56,7 @@ function App() {
         </Col>
       </Row>
 
-      <TodoBoard todoList={todoList} />
+      <TodoBoard todoList={todoList} handleData={getTasks} />
     </Container>
   )
 }
